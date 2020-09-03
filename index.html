@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/android-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="manifest" href="./images/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>GitHub__Finder - Sachin Chaurasiya</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-5 sticky-top">
+    <div class="container">
+      <a href="/index.html" class="navbar-brand text-white">
+        <img
+          src="https://lh3.googleusercontent.com/7RLGUvrlSDRSJQWkfusl-pVfqIdwLQD3pJsZAUo0z5MfHPN_1E6-0mVhMYvyG9PsFy1TT_npHQ=w640-h400-e365"
+          width="30" height="30" class="d-inline-block align-top rounded" alt="" loading="lazy">
+        Github Finder</a>
+    </div>
+  </nav>
+
+  <div class="jumbotron container bg-primary text-white">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="display-4">Github Finder</h1>
+        <p class="lead">This is a Github Finder. here you can search Github users and get all the information about that
+          user.</p>
+        <p>what are you wating for let's get started. find the information about github users like profile and repos.
+          <hr>
+      </div>
+      <div class="col-md-5">
+        <img
+          src="https://lh3.googleusercontent.com/7RLGUvrlSDRSJQWkfusl-pVfqIdwLQD3pJsZAUo0z5MfHPN_1E6-0mVhMYvyG9PsFy1TT_npHQ=w640-h400-e365"
+          class="img-fluid rounded" alt="" loading="lazy">
+        <hr class="my-4">
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container searchContainer">
+    <div class="search card card-body">
+      <h1 class="text-primary display-4">Search Github Users</h1>
+      <p class="lead">Enter a username to fetch a user profile and repos</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="Github Username...">
+    </div>
+    <br>
+    <div id="profile"></div>
+  </div>
+
+  <footer class="mt-5 p-3 text-center bg-primary text-white">
+    2020 &copy; Github Finder Created by Sachin Chaurasiya
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="github.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
