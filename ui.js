@@ -3,7 +3,7 @@ class UI {
     this.profile = document.getElementById("profile");
   }
 
-  //shwo profile
+  //show profile
   showProfile(user) {
     this.profile.innerHTML = `
     <div class="card card-body mb-3">
