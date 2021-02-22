@@ -6,4 +6,4 @@
 
 <p>As you start typing the name it will show you the matched profile.</p>
 
-<strong> Making changes </strong>
+
